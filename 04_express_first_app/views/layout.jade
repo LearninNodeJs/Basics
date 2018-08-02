@@ -4,4 +4,17 @@ html
     title= title
     link(rel='stylesheet', href='/stylesheets/style.css')
   body
+    ul
+      li Writing to Jade
+      li.
+        Writing Multiple Elements
+          rfdikgmojmtgrlfghgh
+
+    input(type="text").class-name#anyid
+    - var condition = true
+    if condition
+      p Found
+    - var itemsArray = [1,2,3]
+    each item in itemsArray
+        p=item
     block content
